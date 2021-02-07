@@ -1,0 +1,10 @@
+body{
+    border: solid 1px;
+}
+
+.Legend{
+    font-family: 'Sriracha', cursive;
+    float: left;
+    width: 500px;
+}
+
