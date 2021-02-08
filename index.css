@@ -1,10 +1,69 @@
 body{
-    border: solid 1px;
+    background-color: black;
 }
 
-.Legend{
-    font-family: 'Sriracha', cursive;
-    float: left;
-    width: 500px;
-}
+.Container {
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*  para hacer responsive  */
+    padding: 20px;
+    }
 
+    .Container h1{
+        margin: 0%;
+        float: left;
+        font-family: 'Sriracha', cursive;
+        /* overflow: hidden; */
+    }
+
+    .Frase{
+        float: left;
+        width: 50%;
+    }
+
+    .datos{
+        float: right;
+        width: 50%;
+        padding-top: 35px;
+        
+        /* display: block; */
+        /* overflow: hidden; */
+        
+    }
+
+    .Logo {
+        max-width: 60px;
+        float: right;
+        /* overflow: hidden; */
+    }
+
+    .Top, .Middle, .Boton {
+        overflow: hidden;
+    }
+
+    .Boton {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .Texto {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .datos input {
+        border: none;
+        border-bottom: 1px solid grey;
+        color: black;
+        font-family: 'Trebuchet MS';
+        font-style: italic;
+        width: 275px;
+        margin-bottom: 15px;
+                
+    }

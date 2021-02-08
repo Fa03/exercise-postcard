@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-   <div class="Container">
+   <form class="Container" action="https://formspree.io/f/go@gmail.com" method="post">
       <div class="Top">
-          <div class="Titel">
+          <div class="Title">
               <h1 class="Legend">My Post Card</h1>
               <img class="Logo" src="Imagenes/4geeks.png" alt="4GeekIcon">
           </div>  
@@ -20,16 +23,20 @@
 
       <div class="Middle">
           <div class="Frase">
-              <p>Look How awesome</p>
+              <p class="Texto">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
           </div>
-          <div class="Input"></div>
+          <div class="datos">
+              <input type="text" placeholder="Some Name">
+              <input type="text" name="email" placeholder="Some E-mail">
+              <input type="text" name="message" placeholder="Some Comment">
+          </div>
       </div>
       
-      <div class="Bottom">
-          <button>Send My PostCard</button>
+      <div class="Boton">
+          <input type="submit" value="Send My PostCard">
       </div>
 
-   </div>
+    </form>
     </p>
 </body>
 </html>
